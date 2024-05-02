@@ -57,16 +57,17 @@
 *.yaml linguist-documentation=false
 *.yaml linguist-language=YAML
 # Markdown
-*.md linguist-detectable=true
+# Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
+*.md linguist-detectable=false
 *.md linguist-documentation=false
 *.md linguist-language=Markdown
-*.mkd linguist-detectable=true
+*.mkd linguist-detectable=false
 *.mkd linguist-documentation=false
 *.mkd linguist-language=Markdown
-*.mdown linguist-detectable=true
+*.mdown linguist-detectable=false
 *.mdown linguist-documentation=false
 *.mdown linguist-language=Markdown
-*.markdown linguist-detectable=true
+*.markdown linguist-detectable=false
 *.markdown linguist-documentation=false
 *.markdown linguist-language=Markdown
 # Makefile (GNU Make)
@@ -166,7 +167,7 @@
 # File info
 
 # File type: gitattributes file (*.gitattributes)
-# File version: 5 (2024, Wednesday, May 1st at 10:43 pm PST)
-# Line count (including blank lines and compiler line): 173
+# File version: 6 (2024, Wednesday, May 1st at 10:46 pm PST)
+# Line count (including blank lines and compiler line): 174
 
 # End of script
